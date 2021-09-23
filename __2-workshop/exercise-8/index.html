@@ -1,1 +1,49 @@
-<!-- ...crickets... -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <h1>Registration form</h1> 
+ <form action="">
+     <label for="fname">First Name</label>
+     <input type="text" required>
+     <label for="lname">Last Name</label>
+     <input type="text" required>
+     <label for="email">Email</label>
+     <input type="text" required>
+ </form>  
+
+ <h2>Which taxi do you require?</h2>
+ <form action="">
+     <input type="radio" required>
+     <label for="taxi">Car</label>
+     <input type="radio" required>
+     <label for="taxi">Van</label>
+     <input type="radio" required>
+     <label for="taxi">Tuk Tuk</label>
+ </form>
+
+ <h2>Where would you like us to pick you up?</h2>
+ <form action="">
+     <label for="location">Pickup Location:</label>
+     <select name="pickup" id="pickup">
+         <option value="select">Select one</option>
+         <option value="office">Taxi office</option>
+         <option value="hotel">Hotel</option>
+         <option value="Downtown">Downtown</option>
+     </select>
+ </form>
+
+ <h2>Additional Instructions</h2>
+ <label for="addition">Special <br><textarea name="special" id="" cols="20" rows="5" placeholder="provide special instructions here"></textarea></label>
+<br>
+<button>Submit</button>
+
+
+
+</body>
+</html>
